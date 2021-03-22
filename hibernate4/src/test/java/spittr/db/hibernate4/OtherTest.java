@@ -18,8 +18,8 @@ import java.util.List;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(classes = RepositoryTestConfig.class)
-@ContextConfiguration("classpath:spittr/db/hibernate4/RepositoryTest-context.xml")
+@ContextConfiguration(classes = RepositoryTestConfig.class)
+//@ContextConfiguration("classpath:spittr/db/hibernate4/RepositoryTest-context.xml")
 public class OtherTest {
 
     @Autowired
